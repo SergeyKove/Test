@@ -5,10 +5,11 @@
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="footer.css">
 </head>
 <body>
 	<header>
-
 		<div class="black-bar">
 			<div class="fixed-container">
 				<div><h1>Самые <a href="#">свежие новости</a> в реальном времени</h1></div>
@@ -21,19 +22,24 @@
 				<a href="#">
 					<img class="header__logo" src="img/logo.png">
 				</a>
+
 				<label id="select-wrapper">
 					Выбор города
 					<select id="custom-select">
 						<option>Москва</option>
-						<option>Краснодар</option>
+						<option>Москва</option>
+						<option>Москва</option>
+						<option>Москва</option>
 					</select>
 				</label>
+
 				<span class="header__temp">
 					+22 &degC
 				</span>
-				<form class="header__seach">
-						<input class="header__seach-seach" type="search" placeholder="Поиск по сайту">
-						<input class="header__seach-buttom" type="submit" value="">
+
+				<form class="seach">
+						<input class="seach__field" type="search" placeholder="Поиск по сайту">
+						<input class="seach__button" type="submit" value="">
 				</form>
 			</div>
 		</div>
@@ -57,128 +63,142 @@
 	</header>
 
 	<main>
-	<div id="central-container">
+	<div class="central-container">
 		<div class="fixed-container">
-			<div id="column-left">
+			<div class="column-left">
 				<h2>Новости дня</h2>
-				<div class="news-item">
-					<div class="news-item-text">
+				<div class="column-left__news-item">
+					<div class="column-left__news-item-text">
 						Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
 					</div>
-					<div class="news-item-props">
+					<div class="column-left__news-item-props">
 						<a href="#">/ ЧМ по футболу</a>
-						<div class="news-time">10:45</div>
-						<div class="news-comments-count">17</div>
+						<div class="column-left__news-time">10:45</div>
+						<div class="column-left__news-comments-count">17</div>
 					</div>
 				</div>
-				<div class="news-item">
-					<div class="news-item-text">
+
+				<div class="column-left__news-item">
+					<div class="column-left__news-item-text">
 						Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
 					</div>
-					<div class="news-item-props">
+					<div class="column-left__news-item-props">
 						<a href="#">/ ЧМ по футболу</a>
-						<div class="news-time">10:45</div>
-						<div class="news-comments-count">17</div>
+						<div class="column-left__news-time">10:45</div>
+						<div class="column-left__news-comments-count">17</div>
 					</div>
 				</div>
-				<div class="news-item">
-					<div class="news-item-text">
+
+				<div class="column-left__news-item">
+					<div class="column-left__news-item-text">
 						Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
 					</div>
-					<div class="news-item-props">
+					<div class="column-left__news-item-props">
 						<a href="#">/ ЧМ по футболу</a>
-						<div class="news-time">10:45</div>
-						<div class="news-comments-count">17</div>
+						<div class="column-left__news-time">10:45</div>
+						<div class="column-left__news-comments-count">17</div>
 					</div>
 				</div>
-				<div class="news-item">
-					<div class="news-item-text">
+
+				<div class="column-left__news-item">
+					<div class="column-left__news-item-text">
 						Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
 					</div>
-					<div class="news-item-props">
+					<div class="column-left__news-item-props">
 						<a href="#">/ ЧМ по футболу</a>
-						<div class="news-time">10:45</div>
-						<div class="news-comments-count">17</div>
+						<div class="column-left__news-time">10:45</div>
+						<div class="column-left__news-comments-count">17</div>
 					</div>
 				</div>
-				<div class="news-item">
-					<div class="news-item-text">
+
+				<div class="column-left__news-item">
+					<div class="column-left__news-item-text">
 						Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
 					</div>
-					<div class="news-item-props">
+					<div class="column-left__news-item-props">
 						<a href="#">/ ЧМ по футболу</a>
-						<div class="news-time">10:45</div>
-						<div class="news-comments-count">17</div>
+						<div class="column-left__news-time">10:45</div>
+						<div class="column-left__news-comments-count">17</div>
 					</div>
 				</div>
-				<div class="news-item">
-					<div class="news-item-text">
+
+				<div class="column-left__news-item">
+					<div class="column-left__news-item-text">
 						Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
 					</div>
-					<div class="news-item-props">
+					<div class="column-left__news-item-props">
 						<a href="#">/ ЧМ по футболу</a>
-						<div class="news-time">10:45</div>
-						<div class="news-comments-count">17</div>
+						<div class="column-left__news-time">10:45</div>
+						<div class="column-left__news-comments-count">17</div>
 					</div>
 				</div>
-				<div id="all_news">
+
+				<div class="column-left__all_news">
 					<a href="#">Все новости</a>
 				</div>
 			</div>
-			<div id="column-center">
-				<div id="news1">
+
+			<div class="column-center">
+				<div class="column-center__news1">
 					<img src="img/news1.png">
 				</div>
-				<div class="news-center-left">
-					<div class="news-text">
+			
+				<div class="news-center__left">
+					<div class="news-center__news-text">
 						<img src="img/news2.png">
 						Алексей Навальный обьявил акцию против пенсионной реформы 1 июля
 					</div>
-					<div class="news-props">
+					<div class="news-center__news-props">
 						<a href="#">/ Политика</a>
-						<div class="news1-time">10:45</div>
-						<div class="news1-comments-count">17</div>
+						<div class="news_center__news-time">10:45</div>
+						<div class="news_center__news-comments-count">17</div>
 					</div>
 				</div>
-				<div class="news-center-right">
-					<div class="news-text">
+
+				<div class="news-center__right">
+					<div class="news-center__news-text">
 						<img src="img/news3.png">
 						Дума увеличила пошлины за выдачу загранпаспартов и водительский прав
 					</div>
-					<div class="news-props">
+					<div class="news-center__news-props">
 						<a href="#">/ Общество</a>
-						<div class="news1-time">10:45</div>
-						<div class="news1-comments-count">17</div>
+						<div class="news_center__news-time">10:45</div>
+						<div class="news_center__news-comments-count">17</div>
 					</div>
 				</div>
-				<div class="news-center-left">
-					<div class="news-text">
+			
+			
+				<div class="news-center__left">
+					<div class="news-center__news-text">
 						<img src="img/news4.png">
 						В России заработал стриминговый сервис YouTube
 					</div>
-					<div class="news-props">
+					<div class="news-center__news-props">
 						<a href="#">/ Интернет</a>
-						<div class="news1-time">10:45</div>
-						<div class="news1-comments-count">17</div>
+						<div class="news_center__news-time">10:45</div>
+						<div class="news_center__news-comments-count">17</div>
 					</div>
 				</div>
-				<div class="news-center-right">
-					<div class="news-text">
+
+				<div class="news-center__right">
+					<div class="news-center__news-text">
 						<img src="img/news5.png">
 						Кейн призван лучшим игроком матча ЧМ-2018 Тунис-Англия
 					</div>
-					<div class="news-props">
+					<div class="news-center__news-props">
 						<a href="#">/ Политика</a>
-						<div class="news1-time">10:45</div>
-						<div class="news1-comments-count">17</div>
+						<div class="news_center__news-time">10:45</div>
+						<div class="news_center__news-comments-count">17</div>
 					</div>
 				</div>
 			</div>
+
 			<div id="column-right">
 				<img src="img/banner-1.png">
 				<img src="img/banner-2.png">
 			</div>
 		</div>
+		
 		<div class="fixed-container">
 			<div id="special-news">
 				<img src="img/news6.png">
@@ -187,22 +207,26 @@
 					<div class="news2-item-text">
 						В Турции пообещали найти альтернативу из-за отказа США поставить F-35
 					</div>
+
 					<div class="news2-item-props">
 						<a href="#">/ Политика</a>
 						<div class="news-time2">10:45</div>
 						<div class="news-comments-count2">17</div>
 					</div>
 				</div>
+
 				<div class="news2-item">
 					<div class="news2-item-text">
 						Назван минимальный доход для причисления к среднему классу
 					</div>
+
 					<div class="news2-item-props">
 						<a href="#">/ Политика</a>
 						<div class="news-time2">10:45</div>
 						<div class="news-comments-count2">17</div>
 					</div>
 				</div>
+
 				<div class="news2-item">
 					<div class="news2-item-text">
 						Назван минимальный доход для причисления к среднему классу
@@ -217,6 +241,7 @@
 		</div>
 	</div>
 	</main>
+
 	<footer id="footer-block">
 		<div class="fixed-container">
 			<div id="footer-left">
@@ -232,6 +257,7 @@
 					<li><a href="#">Туризм</a></li>
 				  </ul>
 			</div>
+
 			<div id="footer-center">
 				<ul>
 					<li><a href="#"><img src="img/logo-footer.png"></a></li>
@@ -240,6 +266,7 @@
 					<li><a href="#">Опубликовать новость</a></li>
 				</ul>
 			</div>
+
 			<div id="footer-right">
 				<ul>
 					<li class="icon-footer"><a href="#"><img src="img/icon-vk.png"></a></li>
@@ -250,6 +277,7 @@
 					<li id="footer-mail"><a href="mailto:info@agency.ru">info@agency.ru</a></li>
 				</ul>
 			</div>
+
 			<div id="footer-bottom">
 				© Новостое агентсво, 2017-2018 все права защищены
 			</div>

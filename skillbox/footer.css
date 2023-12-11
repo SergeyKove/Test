@@ -1,0 +1,102 @@
+#footer-block {
+	height: 290px;
+	background-color: rgb(0, 18, 47);
+	color: #FFFFFF;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#footer-block ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 55px;
+}
+
+#footer-block li {
+	margin-bottom: 15px;
+}
+
+#footer-left {
+	height: 260px;
+	width: 350px;
+	float: left;
+}
+
+#footer-left a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+	#footer-left ul {
+		columns: 2;
+		width: 200px;
+		
+	}
+
+	#footer-left li {
+		margin-bottom: 15px;
+	}
+
+#footer-center {
+	height: 260px;
+	width: 240px;
+	float: left;
+}
+
+#footer-center a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#footer-center ul {
+	float: right;
+	margin-right: 30px;
+}
+
+#footer-right {
+	height: 260px;
+	width: 350px;
+	float: left;
+}
+
+#footer-right ul {
+	float: right;
+}
+
+#footer-right a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+	.icon-footer {
+		display: inline-block;
+		text-decoration: none;
+		color: #FFFFFF;
+		padding-right: 10px;
+		padding-bottom: 20px;
+	}
+
+	#footer-tel {
+		position: relative;
+		padding-left: 40px;
+		background-image: url('img/icon-tel.png');
+		background-repeat: no-repeat;
+	}
+
+	#footer-mail {
+		position: relative;
+		padding-left: 40px;
+		background-image: url('img/icon-mail.png');
+		background-repeat: no-repeat;
+	}
+
+#footer-bottom {
+	width: 960px;
+	height: 23px;
+	float: left;
+	text-align: center;
+	border-top: 1px solid black;
+	font-size: 10px;
+	color: gray;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}

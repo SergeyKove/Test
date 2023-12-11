@@ -24,10 +24,9 @@
 }
 
 .header__temp {
-	position: absolute;
-	left: 550px;
-	top: 54px;
-	padding-left: 40px;
+	margin: auto auto 10px 200px;
+    padding-left: 40px;
+    font-size: 16px;
 	padding-top: 5px;
 	background-image: url('img/icon-temp.png');
 	background-repeat: no-repeat;
@@ -35,22 +34,10 @@
 }
 
 #select-wrapper {
-	display: inline-block;
-	position: absolute;
-	left: 180px;
-	top: 54px;
-	font-size: 0;	
-  }
-  
-  #select-wrapper::after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 15px;
-	height: 1px;
-	border-bottom: 2px dashed #448ccb;
-  }
+	font-size: 0;
+    margin: auto auto 10px 200px;
+    border-bottom: 2px dashed #448ccb;
+}
 
 #custom-select {
 	border: 0;
@@ -58,12 +45,9 @@
 	-moz-appearance: none;
 	appearance: none;
 	font-size: 16px;
-	padding-right: 15px;
 }
 
-.header__seach {
-	position: relative;
-	float: right;
+.seach {
 	margin-top: 40px;
 	width: 250px;
 	height: 40px;
@@ -72,20 +56,21 @@
 	background-color: rgb(243,243, 243);
 }
 
-.header__seach-seach {
+.seach__field {
 	height: 40px;
 	width: 220px;
 	border: 1px solid rgb(243,243, 243);
 	border-radius: 20px;
+    padding-left: 10px;
 
 }
 
-.header__seach input {
+.seach input {
 	border: none;
 	background-color: rgb(243, 243, 243);
 }
 
-.header__seach-buttom {
+.seach__button {
 	width: 18px;
 	height: 18px;
 	background: url(img/icon-seach.png);
@@ -94,6 +79,8 @@
 
 .header__menu-container {
 	height: 50px;
+    padding-bottom: 13px;
+    font-size: 16px;
 }
 
 .header__menu-container ul {
@@ -102,7 +89,15 @@
 
 .header__menu-container li {
 	display: inline;
-	padding-right: 35px;
+	padding-right: 25px;
+    margin-right: 10px;
+
+}
+
+.header__menu-container li:not(:last-child) {
+    background-image: url(img/background-menu.png);
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .header__menu-container a {
