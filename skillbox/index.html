@@ -2,20 +2,24 @@
 <html>
 <head>
 	<title>Новостное агентство</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
 </head>
 <body>
 	<header>
-		<div id="black-bar">
+
+		<div class="black-bar">
 			<div class="fixed-container">
-				<h1>Самые <a href="#">свежие новости</a> в реальном времени</h1>
-				<time id="datetime">12:30 19.06.2018</time>
+				<div><h1>Самые <a href="#">свежие новости</a> в реальном времени</h1></div>
+				<div class="black-bar__datetime"><time>12:30 19.06.2018</time></div>
 			</div>
 		</div>
-		<div id="header">
+
+		<div class="header">
 			<div class="fixed-container">
 				<a href="#">
-					<img id="logo" src="img/logo.png">
+					<img class="header__logo" src="img/logo.png">
 				</a>
 				<label id="select-wrapper">
 					Выбор города
@@ -24,16 +28,17 @@
 						<option>Краснодар</option>
 					</select>
 				</label>
-				<span id="temp">
+				<span class="header__temp">
 					+22 &degC
 				</span>
-				<form id="seach">
-						<input id="seach-seach" type="search" placeholder="Поиск по сайту">
-						<input id="seach-buttom" type="submit" value="">
+				<form class="header__seach">
+						<input class="header__seach-seach" type="search" placeholder="Поиск по сайту">
+						<input class="header__seach-buttom" type="submit" value="">
 				</form>
 			</div>
 		</div>
-		<div id="menu-container">
+
+		<nav class="header__menu-container">
 			<div class="fixed-container">
 				<ul>
 					<li><a href="#">Главная</a></li>
@@ -47,8 +52,10 @@
 					<li><a href="#">Туризм</a></li>
 				</ul>
 			</div>
-		</div>
+		</nav>
+
 	</header>
+
 	<main>
 	<div id="central-container">
 		<div class="fixed-container">

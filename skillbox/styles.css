@@ -7,7 +7,6 @@ html, body {
 
 h1 {
 	font-size: 14px;
-	display: inline;
 }
 
 h2 {
@@ -25,121 +24,12 @@ h3 {
 	border-bottom: 1px solid #e5e5e5;
 }
 
-#black-bar {
-	background-color: black;
-	color: white;
-	padding: 20px 0;
-	font-size: 16px;
-}
-
-#black-bar a {
-	color: white;
-}
-
 .fixed-container {
 	width: 960px;
 	margin: 0 auto;
 	position: relative;
-}
-
-#datetime {
-	float: right;
-}
-
-#header {
-	height: 100px;
-}
-
-#logo {
-	position: absolute;
-	top: 40px;
-}
-
-#temp {
-	position: absolute;
-	left: 550px;
-	top: 54px;
-	padding-left: 40px;
-	padding-top: 5px;
-	background-image: url('img/icon-temp.png');
-	background-repeat: no-repeat;
-	color: gray;
-}
-
-#select-wrapper {
-	display: inline-block;
-	position: absolute;
-	left: 180px;
-	top: 54px;
-	font-size: 0;	
-  }
-  
-  #select-wrapper::after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 15px;
-	height: 1px;
-	border-bottom: 2px dashed #448ccb;
-  }
-
-#custom-select {
-	border: 0;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	font-size: 16px;
-	padding-right: 15px;
-}
-
-#seach {
-	position: relative;
-	float: right;
-	margin-top: 40px;
-	width: 250px;
-	height: 40px;
-	border: 1px solid rgb(243,243, 243);
-	border-radius: 20px;
-	background-color: rgb(243,243, 243);
-}
-
-#seach-seach {
-	height: 40px;
-	width: 220px;
-	border: 1px solid rgb(243,243, 243);
-	border-radius: 20px;
-
-}
-
-#seach input {
-	border: none;
-	background-color: rgb(243, 243, 243);
-}
-
-#seach-buttom {
-	width: 18px;
-	height: 18px;
-	background: url(img/icon-seach.png);
-	vertical-align: middle;
-}
-
-#menu-container {
-	height: 50px;
-}
-
-#menu-container ul {
-	padding-left: 0;
-}
-
-#menu-container li {
-	display: inline;
-	padding-right: 35px;
-}
-
-#menu-container a {
-	color: black;
-	text-decoration: none;	
+	display: flex;
+	justify-content: space-between;
 }
 
 #column-left {
