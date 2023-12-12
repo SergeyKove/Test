@@ -1,6 +1,7 @@
 .column-left {
 	background-color: #FFFFFF;
-    height: 850px;
+    margin-bottom: 20px;
+    width: 250px;
 }
 
 	.column-left__news-item {
@@ -67,6 +68,41 @@
     position: relative;
 }
 
+.column-center__news1-text {
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    color: #FFFFFF;
+	width: 350px;
+	height: 170px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.news1-text__url a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.news1-text__time {
+	margin-left: 15px;
+	padding-left: 15px;
+	background-image: url('img/clock.png');
+	background-repeat: no-repeat;
+}
+
+.news1-text__text {
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.news1-text__datetime {
+	display: flex;
+	flex-direction: row;
+	font-size: 12px;
+}
+
 .central-container {
 	padding-top: 20px;
 	background-color: #f9f9f9;
@@ -103,8 +139,8 @@
 
 .news-center__news-text {
 	margin-bottom: 20px;
-	font-size: 12px;
-	font-weight: 800;
+	font-size: 14px;
+	font-weight: 700;
 }
 
 .news-center__news-props {
@@ -114,6 +150,7 @@
 
 	.news-center__news-props a {
 		color: #91919f;
+		text-decoration: none;
 	}
 
 	.news_center__news-time {

@@ -1,8 +1,9 @@
 .black-bar {
 	background-color: black;
 	color: white;
-	padding: 20px 0;
+	padding: 10px 0;
 	font-size: 16px;
+	
 }
 
 .black-bar a {
@@ -73,7 +74,7 @@
 .seach__button {
 	width: 18px;
 	height: 18px;
-	background: url(img/icon-seach.png);
+	background: url('img/icon-seach.png');
 	vertical-align: middle;
 }
 
@@ -95,7 +96,7 @@
 }
 
 .header__menu-container li:not(:last-child) {
-    background-image: url(img/background-menu.png);
+    background-image: url('img/background-menu.png');
     background-position: right;
     background-repeat: no-repeat;
 }
