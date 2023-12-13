@@ -1,7 +1,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	min-width: 1000px;
+	min-width: 1280px;
 	font-family: Arial;
 	font-size: 12px;
 }
@@ -12,21 +12,22 @@ h1 {
 
 h2 {
 	font-size: 20px;
-	padding: 27px 0 27px 18px;
-	margin: 0 0 34px;
+	padding: 25px 0 20px 18px;
+	margin: 0 0 32px;
 	border-bottom: 1px solid #e5e5e5;
 }
 
 h3 {
 	font-size: 20px;
 	display: inline-block;
-	padding: 30px 91px 30px 20px;
-	margin: 0 0 30px;
+	padding: 26px 130px 23px 20px;
+	margin: 0 auto 30px;
+	margin-bottom: 25px;
 	border-bottom: 1px solid #e5e5e5;
 }
 
 .fixed-container {
-	width: 960px;
+	width: 1000px;
 	margin: 0 auto;
 	position: relative;
 	display: flex;
