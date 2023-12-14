@@ -17,7 +17,7 @@ h2 {
 	border-bottom: 1px solid #e5e5e5;
 }
 
-h3 {
+h4 {
 	font-size: 20px;
 	display: inline-block;
 	padding: 26px 130px 23px 20px;
@@ -31,5 +31,14 @@ h3 {
 	margin: 0 auto;
 	position: relative;
 	display: flex;
+	justify-content: space-between;
+}
+
+.fixed-container-footer {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
